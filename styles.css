@@ -103,3 +103,38 @@ nav {
     display: flex;
     gap: 20px;
 }
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    gap: 30px;
+    min-height: 450px;
+}
+
+.cards {
+    display: flex;
+    gap: 60px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 10px;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border: 3px solid rgb(0, 110, 255);
+    border-radius: 10px;
+}
+
+.card p {
+    text-align: center;
+}
+
+
