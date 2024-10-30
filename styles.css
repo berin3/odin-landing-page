@@ -1,5 +1,18 @@
 * {
     font-family: Roboto, serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header, .info, .quote, .ad-space {
+    flex: 1;
 }
 
 .header, .footer {
@@ -24,6 +37,7 @@
 a, .description {
     color: #E5E7EB;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .ad, button {
@@ -41,4 +55,51 @@ a, .description {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-content {
+    width: 1600px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.content-left button {
+    width: 150px;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.header img {
+    width: 540px;
+    height: 283px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
 }
